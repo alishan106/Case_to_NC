@@ -1,19 +1,19 @@
-# Salesforce DX Project: Next Steps
+# Changes for Assessment Round 1
+--------------------------------
+1) Added New Picklist Value 'Problem' on Case 'Type'
+2) Create a new fiels on Case
+* SQX_NC_Reference__c
+3) Create a Custom Object 'Nonconformance'
+4) Created new Custom Fields on 'Nonconformance' are below:
+* Priority__c
+* Description__c
+* Title__c
+* QMS_Reference_Number__c
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
-
-## How Do You Plan to Deploy Your Changes?
-
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
-# Case_to_NC
+4) Craete a trigger on case
+* CaseTrigger
+5) Create below apex class relate to assignment:
+* CaseTriggerHandler
+* CaseTriggerHalper
+6) Create a test class to code coverage:
+* CaseTriggerTest
